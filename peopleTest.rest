@@ -1,0 +1,21 @@
+
+GET http://localhost:3000/api/people/
+
+
+###
+
+POST http://localhost:3000/auth/register
+Content-Type: Application/json
+
+{
+    "firstname": "Jose",
+    "lastname": "Neto",
+    "address": "Avenida Henriqueta",
+    "city": "Barueri",
+    "state": "SP",
+    "phone": "11960815846",
+    "mobilephone": "11960815846",
+    "email": "j.vieirasilva@gmail.com",
+    "password": "123456"
+}
+
